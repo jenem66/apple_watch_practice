@@ -1,0 +1,32 @@
+header{
+    border-bottom: solid 1px #E0DFDF;
+    height: 72.6rem;
+    margin-bottom: 3.2rem;
+}
+
+
+.hero {
+    display: flex;
+    /* align-items: center; */
+    padding-top: 10rem;
+    /* justify-content: space-between; */
+    /* background: lightblue; */
+}
+
+.intro {
+    width: 40rem;
+}
+
+.intro h1 {
+    margin-bottom: 4.8rem;
+}
+
+
+
+.hero_img {
+    width: 65rem;
+    align-self: flex-end;
+    position: absolute;
+    right: -24rem;
+    top: 10rem;
+}

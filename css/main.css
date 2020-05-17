@@ -1,0 +1,68 @@
+@import "typography.css";
+@import "general.css";
+@import "navigation.css";
+@import "hero.css";
+@import "button.css";
+
+.info-blocks{
+    display: flex;
+    margin-bottom: 8rem;
+    justify-content: space-between;
+}
+
+.info-block {
+    /* flex-basis: 33.3%; */
+    padding: 3.2rem 0;
+    width: 27rem;
+    display: inline-block;
+}
+
+
+.info-block__title h2{
+    margin-bottom: 4rem;
+}
+
+.info-block__truncation {
+    font-size: 3.2rem;
+    color: #C7C8C8;
+    letter-spacing: .6rem;
+}
+
+.buy-now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.buy-now__info {
+    width: 50%;
+}
+
+.buy-now img {
+    width: 40rem;
+}
+
+.control-health {
+    background-image: linear-gradient(180deg, rgba(2,0,36,0.3) 0%, rgba(0,0,0,0.3) 100%),
+    url(../img/runners.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80rem;
+    display: flex;
+    align-items: center;
+}
+
+.control-health,
+.control-health__info p {
+    color: #fff;
+}
+
+.control-health .p-styled {
+    border-left: 2px solid #fff;
+}
+
+.control-health .control-health__info {
+    justify-content: flex-end;
+}

@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+		/* set up sizing for using REM*/
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "Roboto", san-serif;
+    font-size: 1.6rem;
+    color: #333333;
+    position: relative;
+}
+
+/* h1 {
+    font-size: 4.5rem;
+} */
+/* h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+} */
+
+.container{
+    margin: 0 auto;
+    max-width: 100rem;
+}
+

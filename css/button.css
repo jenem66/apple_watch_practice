@@ -1,0 +1,45 @@
+.btn,
+.secondary-btn a {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    transition: ease-in .2s;
+    -webkit-transition: ease-in .2s;
+    -moz-transition: ease-in .2s;
+    -ms-transition: ease-in .2s;
+    -o-transition: ease-in .2s;
+}
+.btn{
+    color: #fff;
+    background: #E86360;
+    padding: 1.4rem 1.6rem;
+}
+
+.btn:hover{
+    background: rgb(243, 86, 75);
+}
+
+.secondary-btn{
+    color: #E86360;
+    margin-top: 1.6rem;
+    display: inline-block;
+}
+
+.secondary-btn::before {
+    content: "";
+    background:rgb(243, 86, 75);
+    width: 3rem;
+    height: .2rem;
+    margin-bottom: .3rem;
+    margin-right: 1rem;
+    display: inline-block;
+    transition: width ease-in-out .2s;
+    -webkit-transition: width ease-in-out .2s;
+    -moz-transition: width ease-in-out .2s;
+    -ms-transition: width ease-in-out .2s;
+    -o-transition: width ease-in-out .2s;
+}
+.secondary-btn:hover::before {
+    width: 4rem;
+}
+
